@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+    <!--android:fitsSystemWindows="true"-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="16sp"
+        android:weightSum="1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textSize="16sp"
+            android:id="@+id/etNombreCancion"
+            android:layout_weight="0.98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:src="@android:drawable/ic_menu_search"
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp" />
+    </LinearLayout>-->
+
+    <include layout="@layout/content_layout" />
+
+    <include layout="@layout/navdrawer_layout" />
+
+
+    <!--<WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView" />-->
+
+
+</android.support.v4.widget.DrawerLayout>
+<!--</LinearLayout>-->
+
